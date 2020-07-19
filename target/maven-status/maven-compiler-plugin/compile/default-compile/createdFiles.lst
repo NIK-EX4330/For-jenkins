@@ -1,0 +1,3 @@
+com\main\app\controller\GlobalController.class
+com\main\app\App.class
+com\main\app\service\FactorialService.class

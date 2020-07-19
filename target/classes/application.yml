@@ -1,0 +1,12 @@
+server:
+   port: 9000
+   
+# to enable all actuator endpoints
+management.endpoints.web.exposure.include: "*"
+
+# profile(environment) like dev, test, production etc
+# file convention is application-{profileName}.{yml/properties}
+# this is default profile which will always active by default
+# we can override this attribute using cmd (java -jar jar_name --spring.profiles.active={profile-name})
+spring.profiles.active: test
+spring.application.name: Jenkins-Sample-Project-1

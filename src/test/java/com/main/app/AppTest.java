@@ -35,7 +35,7 @@ public class AppTest {
 	public void Test_greet_method() throws Exception {
 	
 		String url = "/";
-		String expected = "Welcome to : Jenkins-Sample-Project-1";
+		String expected = "Welcome to :- Jenkins-Sample-Project-1";
 		RequestBuilder request = MockMvcRequestBuilders.get(url);
 		MvcResult result = mvc.perform(request).andReturn();
 		assertEquals(expected, result.getResponse().getContentAsString());

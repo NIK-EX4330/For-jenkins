@@ -19,7 +19,7 @@ public class GlobalController {
 
 	@GetMapping("/")
 	public String greet() {
-		return "Welcome to : " + appName;
+		return "Welcome to :- " + appName;
 	}
 	
 	@GetMapping("/{name}")
